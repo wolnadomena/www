@@ -269,8 +269,8 @@ try {
 <body>
 <div class="container box">
 
-    <h2 class="center">WebTest.pl</h2>
-    <p class="center">Test your domains and webservices worked on</p>
+    <h2 class="center">Wolna Domena .pl</h2>
+    <p class="center">More Than WHOIS...</p>
     <hr>
     <form method="post">
         <div class="form-group">
