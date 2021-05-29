@@ -1,7 +1,6 @@
 <?php
 /*
  * https://www.wolnadomena.pl/index.php?domain=softreck.com
- * https://www.wolnadomena.pl/?domain=softreck.com
  * http://localhost:8080/index.php?domain=softreck.com
  */
 
