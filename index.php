@@ -1,7 +1,9 @@
 <?php
-
-// https://whois.webtest.pl/index.php?domain=softeck.com
-// https://whois.webtest.pl/?domain=softeck.com
+/*
+ * https://www.wolnadomena.pl/index.php?domain=softeck.com
+ * https://www.wolnadomena.pl/?domain=softeck.com
+ * http://localhost:8080/index.php?domain=softeck.com
+ */
 
 // Load composer framework
 if (file_exists(__DIR__ . '/vendor/autoload.php')) {
@@ -16,17 +18,16 @@ header('Content-Type: application/json');
 
 try {
     $domain = $_GET['domain'];
+//    $domain = 'softreck.com';
 
-    if (empty($domains)) {
+    if (empty($domain)) {
         throw new Exception("domain is empty");
     }
 
     $domain = strtolower($domain);
 
-//    $domain = 'softreck.com';
-
     load_func([
-        'https://php.defjson.com/def_json.php',
+        'https://php.defjson.com/def_json.php'
     ], function () {
 
         global $domain;
@@ -39,6 +40,7 @@ try {
             "domain" => $domain
         ]);
     });
+
 } catch (Exception $e) {
     // Set HTTP response status code to: 500 - Internal Server Error
     echo def_json("", [

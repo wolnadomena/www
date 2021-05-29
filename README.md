@@ -4,8 +4,10 @@
 # API for Whois PHP
 Check domains , test connection, screen,
 
-+ [github.com/webtest-pl](https://github.com/webtest-pl)
-+ [whois.webtest.pl](https://whois.webtest.pl/)
++ [github.com/wolnadomena](https://github.com/wolnadomena)
++ [wolnadomena.pl](https://wolnadomena.pl/)
+
+# Install
 
 ## Composer
 install packages
@@ -15,13 +17,13 @@ install packages
 
 ## github
 
-https://github.com/webtest-pl/www
+https://github.com/wolnadomena/www
 
 ## GIT
 
-https://github.com/webtest-pl/whois.git
+https://github.com/wolnadomena/www.git
 
-    git clone https://github.com/webtest-pl/whois.git
+    git clone https://github.com/wolnadomena/www.git
 
 
 # project URL-s
@@ -43,3 +45,29 @@ localhost
 [http://localhost:8080/get.php?domain=apiprogram.com](http://localhost:8080/get.php?domain=apiprogram.com)
 
     curl http://localhost:8080/index.php?domain=apiprogram.com
+
+
+# php serve
+
+    php -S 0.0.0.0:8080
+
+    http://localhost:8080/db/view.php
+
+
+## GIT events API
+
+https://api.github.com/users/tom-sapletta-com/events
+
+
+
+WEB
+
+    php composer.phar create-project slim/slim-skeleton:dev-master web
+    
+    cd web 
+    php -S localhost:8080 -t public public/index.php
+
+
+# START
+
+http://localhost:8080/index.php?domain=softeck.com
