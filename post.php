@@ -65,9 +65,6 @@ try {
             global $html;
 
             $html = implode("<br>", $domain_nameserver_list);
-//        var_dump($domain_nameserver_list);
-//        var_dump($screen_shot_image);
-
         });
     }
 
@@ -122,9 +119,6 @@ try {
             global $html;
 
             $html = implode("<br>", $domain_nameserver_list);
-//        var_dump($domain_nameserver_list);
-//        var_dump($screen_shot_image);
-
         });
     }
 

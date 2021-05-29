@@ -36,6 +36,7 @@ require("post.php");
     </form>
     <br/>
     <?php
+    global $html;
     echo $html;
     ?>
 </div>
