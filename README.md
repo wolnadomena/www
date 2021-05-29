@@ -70,4 +70,15 @@ WEB
 
 # START
 
-http://localhost:8080/index.php?domain=softeck.com
+http://localhost:8080/index.php?domain=softreck.com
+
+
+# WWW
+
+https://www.wolnadomena.pl/whois.php?domain=softreck.com
+
+https://www.wolnadomena.pl/status.php?domain=softreck.com
+
+https://www.wolnadomena.pl/nameserver.php?domain=softreck.com
+
+https://www.wolnadomena.pl/registered.php?domain=softreck.com
