@@ -1,7 +1,7 @@
 # www.WolnaDomena.pl
 + WHOIS and more ... the tool from domainer for a domainer!
 
-# API for Whois PHP
+# API for Whois, based on PHP
 Check domains , test connection, screen,
 
 + [github.com/wolnadomena](https://github.com/wolnadomena)
@@ -30,10 +30,7 @@ https://github.com/wolnadomena/www.git
 
 ## for index with own json files
 
-+ [webtest.pl/index.php](https://whois.webtest.pl/index.php)
-
 + [localhost:8080](http://localhost:8080/)
-
 
     curl http://localhost:8080/index.php
 
@@ -51,21 +48,7 @@ localhost
 
     php -S 0.0.0.0:8080
 
-    http://localhost:8080/db/view.php
-
-
-## GIT events API
-
-https://api.github.com/users/tom-sapletta-com/events
-
-
-
-WEB
-
-    php composer.phar create-project slim/slim-skeleton:dev-master web
-    
-    cd web 
-    php -S localhost:8080 -t public public/index.php
+    http://localhost:8080/index.php
 
 
 # START

@@ -1,6 +1,6 @@
 .plesk.txt
 .idea/
-#.load_func/
+.load_func/
 
 # Libraries
 api_sql.php
