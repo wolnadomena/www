@@ -11,7 +11,7 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 use phpWhois\Whois;
 
-require("load_func.php");
+require("apifunc.php");
 
 header('Content-Type: application/json');
 
@@ -25,7 +25,7 @@ try {
 
     $domain = strtolower($domain);
 
-    load_func([
+    apifunc([
         'https://php.defjson.com/def_json.php'
     ], function () {
 

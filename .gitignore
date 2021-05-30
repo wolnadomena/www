@@ -1,10 +1,10 @@
 .plesk.txt
 .idea/
-.load_func/
+.apifunc/
 
 # Libraries
 api_sql.php
-#load_func.php
+#apifunc.php
 let_json.php
 def_json.php
 

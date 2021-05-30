@@ -1,11 +1,39 @@
 # www.WolnaDomena.pl
 + WHOIS and more ... the tool from domainer for a domainer!
-
-# API for Whois, based on PHP
-Check domains , test connection, screen,
++ API for Whois, based on PHP
++ Check domains
++ Test connection
++ show screenshot
 
 + [github.com/wolnadomena](https://github.com/wolnadomena)
 + [wolnadomena.pl](https://wolnadomena.pl/)
+
+
+# First Steps
+## on linux
+### install
+    sh .apicra\install.sh
+
+### start
+    sh .apicra\start.sh
+
+## on windows
+
+### install
+    .apicra\install.bat
+
+### start
+    .apicra\start.bat
+
+### tests
+
+    .apicra\test.bat
+
+---
+
++ [edit](https://github.com/wolnadomena/whois/edit/main/README.md)
+
+---
 
 # Install
 
